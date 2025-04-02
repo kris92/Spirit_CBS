@@ -8,7 +8,12 @@
 
 ![LodeRunner](images/LodeRunner.jpeg)
 
-This is an attempt to build a computer somewhere in the middle of an Apple ][ and an Apple //e. So its name is Spirit ]/ (a computer with Apple II series in mind). Since the WAF (Wife Acceptance Factor) of the Apple // form factor (with disk drives and display) is somewhere near zero, I'm looking for something smaller. The first PCB iteration was half size of the System 2 with only a single slot. But one slot is really not enough.
+This is an attempt to build a computer somewhere in the middle of an Apple ][ and an Apple //e. So its name is Spirit ]/ (a computer with Apple II series in mind). Since the WAF (Wife Acceptance Factor) of the Apple // form factor (with disk drives and display) is somewhere near zero, I'm looking for something smaller. The first PCB iteration was half size of the System 2 with only a single slot. But one slot is really not enough.<br>
+I build a serial USB probe that was really helpful for initial debuging with an interactive step mode. 
+<p align="center">
+  <img width="512" src="images/IMG_7960.jpeg">
+  </br>
+</p>
 
 So my requirements were :
 
@@ -46,9 +51,9 @@ Until now, Disk ][, A2Pico (SD Card), A2DVI and PRODOS-ROM cards were succesfull
 Full code for System 2 will be released as soon as a stable minimal system will be available.
 | System | Date | Status |
 | --- | --- | --- |
-| System 1 | 2025-03-01 | Finished.<br>Floppy, SDCard, USB Keyboard, A2DVI working.<br>Basic test of joystick interface.<br>Prodos 2.4.2 Ok.<br>Some games tested.<br>FastChip splash screen displayed then froze.<br> |
-| System 2 | 2025-03-31 | Waiting for first PCBs from JLCPCB (Motherboard, SmartPort, Disk ][, //c Keyboard interface.<br>//c keyboard RP2040 code ready. |
-| System 3 | 2025-03-31 | Initial PCB ordered for case integration test.<br>Riser card PCB ordered for slots. |
+| <b>System 1</b> | 2025-03-01 | Finished.<br>Floppy, SDCard, USB Keyboard, A2DVI working.<br>Basic test of joystick interface.<br>Prodos 2.4.2 Ok.<br>Some games tested.<br>FastChip splash screen displayed then froze.<br> |
+| <b>System 2</b> | 2025-03-31 | Waiting for first PCBs from JLCPCB : Motherboard, SmartPort, Disk ][, //c Keyboard interface.<br>//c keyboard RP2040 code ready. |
+| <b>System 3</b> | 2025-03-31 | Initial PCB ordered for case integration test.<br>Riser card PCB ordered for slots. |
 
 # Motherboard
 
