@@ -1,0 +1,122 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 22:29:05  February 16, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Echo_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX7000S
+set_global_assignment -name DEVICE "EPM7128SLC84-10"
+set_global_assignment -name TOP_LEVEL_ENTITY Probe
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:29:05  FEBRUARY 16, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 1
+set_global_assignment -name ALLOW_POWER_UP_DONT_CARE OFF
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+
+#set_location_assignment PIN_83 -to CLK12M
+set_location_assignment PIN_46 -to PHI_0
+
+#set_location_assignment PIN_56 -to TEST1
+#set_location_assignment PIN_75 -to TEST2
+#set_location_assignment PIN_76 -to TEST3
+#set_location_assignment PIN_77 -to TEST4
+
+# Interrupts
+set_location_assignment PIN_1 -to nRESET
+
+# CPU
+set_location_assignment PIN_54 -to RnW
+set_location_assignment PIN_58 -to RDY
+set_location_assignment PIN_48 -to SYNC
+
+# Slot
+#set_location_assignment PIN_9 -to nIOSEL
+#set_location_assignment PIN_41 -to nDEV
+#set_location_assignment PIN_9 -to nIO_STROBE
+
+# CPU addresses bus
+set_location_assignment PIN_11 -to A[0]
+set_location_assignment PIN_15 -to A[1]
+set_location_assignment PIN_16 -to A[2]
+set_location_assignment PIN_20 -to A[3]
+set_location_assignment PIN_30 -to A[4]
+set_location_assignment PIN_33 -to A[5]
+set_location_assignment PIN_35 -to A[6]
+set_location_assignment PIN_37 -to A[7]
+set_location_assignment PIN_39 -to A[8]
+set_location_assignment PIN_44 -to A[9]
+set_location_assignment PIN_45 -to A[10]
+set_location_assignment PIN_50 -to A[11]
+set_location_assignment PIN_52 -to A[12]
+set_location_assignment PIN_51 -to A[13]
+set_location_assignment PIN_57 -to A[14]
+set_location_assignment PIN_55 -to A[15]
+
+# Data bus
+set_location_assignment PIN_12 -to D[0]
+set_location_assignment PIN_17 -to D[1]
+set_location_assignment PIN_18 -to D[2]
+set_location_assignment PIN_22 -to D[3]
+set_location_assignment PIN_34 -to D[4]
+set_location_assignment PIN_36 -to D[5]
+set_location_assignment PIN_31 -to D[6]
+set_location_assignment PIN_40 -to D[7]
+
+# FT245
+set_location_assignment PIN_60 -to nUSB_RD
+set_location_assignment PIN_61 -to USB_WR
+set_location_assignment PIN_70 -to nRXF
+set_location_assignment PIN_68 -to nTXE
+set_location_assignment PIN_69 -to SD[0]
+set_location_assignment PIN_79 -to SD[1]
+set_location_assignment PIN_67 -to SD[2]
+set_location_assignment PIN_63 -to SD[3]
+set_location_assignment PIN_80 -to SD[4]
+set_location_assignment PIN_65 -to SD[5]
+set_location_assignment PIN_81 -to SD[6]
+set_location_assignment PIN_64 -to SD[7]
+set_location_assignment PIN_74 -to USB_LED
+
+set_global_assignment -name SDC_FILE Probe.sdc
+set_global_assignment -name VHDL_FILE Probe.vhdl
+set_global_assignment -name VHDL_FILE DebugConsole.vhdl
+set_global_assignment -name MAX7000_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
