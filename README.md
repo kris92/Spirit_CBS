@@ -42,6 +42,14 @@ Until now, Disk ][, A2Pico (SD Card), A2DVI and PRODOS-ROM cards were succesfull
 
 ![MouseDesk loaded from a floppy](images/MouseDesk.jpeg)
 
+# Status
+
+| System | Date | Status |
+| --- | --- | --- |
+| System 1 | 2025-03-01 | Finished.<br>Floppy, SDCard, USB Keyboard, A2DVI working.<br>Prodos 2.4.2 Ok.<br>Some games tested.<br>FastChip splash screen displayed then froze.<br> |
+| System 2 | 2025-03-31 | Waiting for first PCBs from JLCPCB (Motherboard, SmartPort, Disk ][, //c Keyboard interface.<br>//c keyboard RP2040 code ready. |
+| System 3 | 2025-03-31 | Initial PCB ordered for case integration test.<br>Riser card PCB ordered for slots. |
+
 # Motherboard
 
 The needed functions of MMU & IOU are coded inside a single CPLD (EPM7128 from Altera).
