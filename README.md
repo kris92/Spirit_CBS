@@ -46,7 +46,7 @@ Until now, Disk ][, A2Pico (SD Card), A2DVI and PRODOS-ROM cards were succesfull
 Full code for System 2 will be released as soon as a stable minimal system will be available.
 | System | Date | Status |
 | --- | --- | --- |
-| System 1 | 2025-03-01 | Finished.<br>Floppy, SDCard, USB Keyboard, A2DVI working.<br>Prodos 2.4.2 Ok.<br>Some games tested.<br>FastChip splash screen displayed then froze.<br> |
+| System 1 | 2025-03-01 | Finished.<br>Floppy, SDCard, USB Keyboard, A2DVI working.<br>Basic test of joystick interface.<br>Prodos 2.4.2 Ok.<br>Some games tested.<br>FastChip splash screen displayed then froze.<br> |
 | System 2 | 2025-03-31 | Waiting for first PCBs from JLCPCB (Motherboard, SmartPort, Disk ][, //c Keyboard interface.<br>//c keyboard RP2040 code ready. |
 | System 3 | 2025-03-31 | Initial PCB ordered for case integration test.<br>Riser card PCB ordered for slots. |
 
