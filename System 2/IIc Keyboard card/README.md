@@ -1,0 +1,1 @@
+Warning, this board will not work on a real Apple II system. Missing AKD, KSTRB and KBD signals are routed to available pins of the Spirit system slot 1.
